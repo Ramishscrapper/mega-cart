@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1299px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+body {
+  background: $color-4;
+  font-family: "Inter", sans-serif;
+}

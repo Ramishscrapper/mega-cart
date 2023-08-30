@@ -1,0 +1,39 @@
+.cart-items {
+  background-color: $color-1;
+  padding: 20px;
+
+  .cart-items {
+    overflow-x: auto;
+  }
+
+  table {
+    border-collapse: separate;
+    border-spacing: 0 20px;
+    width: 100%;
+    white-space: nowrap;
+
+    tr {
+      td {
+        img {
+          max-width: 150px;
+        }
+      }
+      .product-name {
+        padding: 0 20px;
+      }
+
+      .remove-item {
+        padding: 0 20px;
+
+        button {
+          background-color: transparent;
+          border: none;
+          box-shadow: none;
+          font-weight: 700;
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
