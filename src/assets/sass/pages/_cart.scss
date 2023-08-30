@@ -1,10 +1,7 @@
 .cart-items {
   background-color: $color-1;
   padding: 20px;
-
-  .cart-items {
-    overflow-x: auto;
-  }
+  overflow-x: auto;
 
   table {
     border-collapse: separate;
